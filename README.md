@@ -47,13 +47,7 @@ cd ACS
 Run the experiment script with the desired experiment name and classifier:
 
 ```bash
-uv run python run_experiment.py --exp ACSIncome_no_race --classifier tree
-```
-
-or:
-
-```bash
-uv run python run_experiment.py --exp ACSPubcov_no_sex --classifier tree
+uv run python run_experiment.py --exp <experiment name> --classifier <classifier type >
 ```
 
 Available experiment names:
@@ -63,10 +57,12 @@ ACSIncome_no_race
 ACSPubcov_no_sex
 ```
 
-Example classifier:
+Available classifier names:
 
 ```text
+linear
 tree
+rf
 ```
 
 ### 3. Outputs
@@ -75,12 +71,6 @@ Results are saved under:
 
 ```text
 ACS/results/<experiment_name>/
-```
-
-For example:
-
-```text
-ACS/results/ACSIncome_no_race/tree_mc_results.pkl
 ```
 
 ---
