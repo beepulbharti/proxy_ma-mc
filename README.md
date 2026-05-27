@@ -47,19 +47,17 @@ cd ACS
 Run the experiment script with the desired experiment name and classifier:
 
 ```bash
-uv run python run_experiment.py --exp <experiment name> --classifier <classifier type >
+uv run python run_experiment.py --exp <experiment name> --classifier <classifier>
 ```
 
-Available experiment names:
+Available experiment names and classifiers:
 
 ```text
+Experiment names
 ACSIncome_no_race
 ACSPubcov_no_sex
-```
 
-Available classifier names:
-
-```text
+Classifiers:
 linear
 tree
 rf
