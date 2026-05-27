@@ -1,0 +1,28 @@
+# Generated outputs
+ACS/data/
+ACS/results/
+ACS/figures/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# uv / virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
