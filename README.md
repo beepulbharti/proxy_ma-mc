@@ -54,13 +54,10 @@ Available experiment names and classifiers:
 
 ```text
 Experiment names
-ACSIncome_no_race
-ACSPubcov_no_sex
+ACSIncome_no_race, ACSPubcov_no_sex
 
 Classifiers:
-linear
-tree
-rf
+linear, tree, rf
 ```
 
 ### 3. Outputs
